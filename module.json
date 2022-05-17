@@ -9,9 +9,9 @@
   ],
   "url": "https://github.com/GarebearNF/FullCompendium",
   "flags": {},
-  "version": "0.1.35",
+  "version": "0.1.5",
   "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "0.9.1",
+  "compatibleCoreVersion": "0.9.2",
   "scripts": [],
   "esmodules": [],
   "styles": [],
@@ -27,16 +27,8 @@
     },
     {
       "name": "allitems",
-      "label": "All Mundane Items",
+      "label": "All Items",
       "path": "packs/items.db",
-      "entity": "Item",
-      "module": "FullCompendium",
-      "private": false
-    },
-    {
-      "name": "allmagic-items",
-      "label": "All Magic Items",
-      "path": "packs/magic-items.db",
       "entity": "Item",
       "module": "FullCompendium",
       "private": false
@@ -59,7 +51,48 @@
     }
   ],
   "system": [],
-  "dependencies": [],
+  "dependencies": [
+{
+            "name": "about-time",
+            "type": "module",
+            "manifest": "https://gitlab.com/tposney/about-time/raw/master/package/module.json"
+        },
+{
+            "name": "advanced-macros",
+            "type": "module",
+            "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-advanced-macros/releases/latest/download/module.json"
+        },
+{
+            "name": "convenient-effects",
+            "type": "module",
+            "manifest": "https://github.com/DFreds/dfreds-convenient-effects/releases/latest/download/module.json"
+        },
+{
+            "name": "dae",
+            "type": "module",
+            "manifest": "https://gitlab.com/tposney/dae/raw/master/package/module.json"
+        },
+{
+            "name": "item-macro",
+            "type": "module",
+            "manifest": "https://github.com/Kekilla0/Item-Macro"
+        },
+{
+            "name": "midi-qol",
+            "type": "module",
+            "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json"
+        },
+{
+            "name": "magic-items",
+            "type": "module",
+            "manifest": "https://gitlab.com/riccisi/foundryvtt-magic-items/raw/master/module/module.json"
+        },
+{
+            "name": "times-up",
+            "type": "module",
+            "manifest": "https://gitlab.com/tposney/times-up/raw/master/package/module.json"
+        },
+],
   "socket": false,
   "manifest": "https://github.com/GarebearNF/FullCompendium/raw/main/module.json",
   "download": "https://www.dropbox.com/s/vuzlwc4cz72sa4y/FullCompendium.zip?dl=1",
