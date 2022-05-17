@@ -53,17 +53,17 @@
   "system": [],
   "dependencies": [
 {
-            "name": "about-time",
+            "name": "abouttime",
             "type": "module",
             "manifest": "https://gitlab.com/tposney/about-time/raw/master/package/module.json"
         },
 {
-            "name": "advanced-macros",
+            "name": "advancedmacros",
             "type": "module",
             "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-advanced-macros/releases/latest/download/module.json"
         },
 {
-            "name": "convenient-effects",
+            "name": "convenienteffects",
             "type": "module",
             "manifest": "https://github.com/DFreds/dfreds-convenient-effects/releases/latest/download/module.json"
         },
@@ -73,22 +73,22 @@
             "manifest": "https://gitlab.com/tposney/dae/raw/master/package/module.json"
         },
 {
-            "name": "item-macro",
+            "name": "itemmacro",
             "type": "module",
             "manifest": "https://github.com/Kekilla0/Item-Macro"
         },
 {
-            "name": "midi-qol",
+            "name": "midiqol",
             "type": "module",
             "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json"
         },
 {
-            "name": "magic-items",
+            "name": "magicitems",
             "type": "module",
             "manifest": "https://gitlab.com/riccisi/foundryvtt-magic-items/raw/master/module/module.json"
         },
 {
-            "name": "times-up",
+            "name": "timesup",
             "type": "module",
             "manifest": "https://gitlab.com/tposney/times-up/raw/master/package/module.json"
         },
