@@ -1,62 +1,58 @@
 {
-  "name": "Full Compendium",
+  "id": "full-compendium",
+  "name": "full-compendium",
   "title": "Full Compendium",
   "description": "This module contains compendium packs with all paid content from D&D Beyond. Currently contains creatures, mundane items, magical items, and spells.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "author": "Syphre",
   "authors": [
     {
       "name": "Syphre"
     }
   ],
-  "url": "https://github.com/GarebearNF/FullCompendium",
-  "flags": {},
-  "version": "0.1.36",
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "0.9.2",
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
   "packs": [
-    {
-      "name": "allspells",
-      "label": "All Spells",
-      "path": "packs/spells.db",
-      "entity": "Item",
-      "module": "FullCompendium",
-      "private": false
-    },
-    {
-      "name": "allitems",
-      "label": "All Items",
-      "path": "packs/items.db",
-      "entity": "Item",
-      "module": "FullCompendium",
-      "private": false
-    },
     {
       "name": "allcreatures",
       "label": "All Creatures",
-      "path": "packs/creatures.db",
+      "path": "/packs/creatures.db",
       "entity": "Actor",
-      "module": "FullCompendium",
-      "private": false
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+{
+      "name": "allitems",
+      "label": "All Items",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "allspells",
+      "label": "All Spells",
+      "path": "/packs/spells.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e"
     },
     {
       "name": "custommacros",
       "label": "Custom Macros",
-      "path": "packs/my-macros.db",
+      "path": "/packs/my-macros.db",
       "entity": "Macro",
-      "module": "FullCompendium",
-      "private": false
+      "type": "Macro"
     }
   ],
-  "system": [],
-  "dependencies": [
-],
-  "socket": false,
+  "esmodules": [],
+  "url": "https://github.com/GarebearNF/FullCompendium",
   "manifest": "https://github.com/GarebearNF/FullCompendium/raw/main/module.json",
   "download": "https://www.dropbox.com/s/vuzlwc4cz72sa4y/FullCompendium.zip?dl=1",
-  "protected": false,
-  "coreTranslation": false,
-  "library": "false"
+  "manifestPlusVersion": "1.2.0"
 }
