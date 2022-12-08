@@ -77,6 +77,7 @@
       "path": "/packs/tables.db",
       "entity": "RollTable",
       "type": "RollTable",
+      "module": "full-compendium",
       "system": "dnd5e"
     },
     {
