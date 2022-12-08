@@ -72,6 +72,14 @@
       "system": "dnd5e"
     },
     {
+      "name": "relatedtables",
+      "label": "Compendium Tables",
+      "path": "/packs/tables.db",
+      "entity": "RollTable",
+      "type": "RollTable",
+      "system": "dnd5e"
+    },
+    {
       "name": "custommacros",
       "label": "Custom Macros",
       "path": "/packs/my-macros.db",
@@ -79,7 +87,6 @@
       "type": "Macro"
     }
   ],
-  "esmodules": [],
   "url": "https://github.com/GarebearNF/FullCompendium",
   "manifest": "https://github.com/GarebearNF/FullCompendium/raw/main/module.json",
   "download": "https://www.dropbox.com/s/vuzlwc4cz72sa4y/FullCompendium.zip?dl=1",
