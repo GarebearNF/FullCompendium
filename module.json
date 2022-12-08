@@ -11,6 +11,7 @@
     "verified": "10",
     "maximum": "10"
   },
+  "author": "Syphre",
   "authors": [
     {
       "name": "Syphre"
@@ -54,7 +55,7 @@
       "type": "Actor",
       "system": "dnd5e"
     },
-    {
+{
       "name": "allitems",
       "label": "All Items",
       "path": "/packs/items.db",
@@ -76,7 +77,6 @@
       "path": "/packs/tables.db",
       "entity": "RollTable",
       "type": "RollTable",
-      "module": "full-compendium",
       "system": "dnd5e"
     },
     {
@@ -91,5 +91,5 @@
   "url": "https://github.com/GarebearNF/FullCompendium",
   "manifest": "https://github.com/GarebearNF/FullCompendium/raw/main/module.json",
   "download": "https://www.dropbox.com/s/vuzlwc4cz72sa4y/FullCompendium.zip?dl=1",
-  "manifestPlusVersion": "2.1.0"
+  "manifestPlusVersion": "1.2.0"
 }
