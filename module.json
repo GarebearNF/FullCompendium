@@ -3,7 +3,7 @@
   "name": "full-compendium",
   "title": "Full Compendium",
   "description": "This module contains compendium packs with all paid content from D&D Beyond. Currently contains creatures, mundane items, magical items, and spells.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "10",
   "compatibility": {
@@ -17,6 +17,35 @@
       "name": "Syphre"
     }
   ],
+"relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.0.3",
+          "compatible": "2.0.3"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "itemacro",
+        "type": "module",
+        "manifest": "https://github.com/Kekilla0/Item-Macro/releases/download/1.8.0/module.json"
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "manifest": "https://gitlab.com/tposney/dae/raw/master/package/module.json"
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json"
+      },
+    ]
+  },
   "packs": [
     {
       "name": "allcreatures",
@@ -43,6 +72,14 @@
       "system": "dnd5e"
     },
     {
+      "name": "relatedtables",
+      "label": "Compendium Tables",
+      "path": "/packs/tables.db",
+      "entity": "RollTable",
+      "type": "RollTable",
+      "system": "dnd5e"
+    },
+    {
       "name": "custommacros",
       "label": "Custom Macros",
       "path": "/packs/my-macros.db",
@@ -54,5 +91,5 @@
   "url": "https://github.com/GarebearNF/FullCompendium",
   "manifest": "https://github.com/GarebearNF/FullCompendium/raw/main/module.json",
   "download": "https://www.dropbox.com/s/vuzlwc4cz72sa4y/FullCompendium.zip?dl=1",
-  "manifestPlusVersion": "1.2.0"
+  "manifestPlusVersion": "2.0.0"
 }
