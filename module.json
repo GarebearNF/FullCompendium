@@ -3,7 +3,7 @@
   "name": "FullCompendium",
   "title": "Full Compendium",
   "description": "This module contains compendium packs with all paid content from D&D Beyond. Currently contains creatures, mundane items, magical items, and spells.",
-  "version": "1.1.0",
+  "version": "1.5.0",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "11",
   "compatibility": {
@@ -90,6 +90,5 @@
   "esmodules": [],
   "url": "https://github.com/GarebearNF/FullCompendium",
   "manifest": "https://github.com/GarebearNF/FullCompendium/raw/main/module.json",
-  "download": "https://www.dropbox.com/s/vuzlwc4cz72sa4y/FullCompendium.zip?dl=1",
-  "manifestPlusVersion": "1.2.0"
+  "download": "https://www.dropbox.com/s/vuzlwc4cz72sa4y/FullCompendium.zip?dl=1"
 }
