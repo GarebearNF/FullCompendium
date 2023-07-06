@@ -43,9 +43,9 @@
         "id": "midi-qol",
         "type": "module",
         "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json"
-      },
+      }
     ]
-  },
+},
   "packs": [
     {
       "name": "allcreatures",
@@ -55,7 +55,7 @@
       "type": "Actor",
       "system": "dnd5e"
     },
-{
+	{
       "name": "allitems",
       "label": "All Items",
       "path": "/packs/items.db",
