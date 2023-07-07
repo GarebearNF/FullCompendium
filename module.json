@@ -3,13 +3,13 @@
   "name": "FullCompendium",
   "title": "Full Compendium",
   "description": "This module contains compendium packs with all paid content from D&D Beyond. Currently contains creatures, mundane items, magical items, and spells.",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "11",
+  "compatibleCoreVersion": "10",
   "compatibility": {
     "minimum": "0.8.6",
-    "verified": "11",
-    "maximum": "11"
+    "verified": "10",
+    "maximum": "10"
   },
   "author": "Syphre",
   "authors": [
